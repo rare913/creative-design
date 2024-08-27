@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .hader {
+            position: relative;
+        }
+
+        @media(max-width:991px) {
+            .sidebar {
+                background-color: rgb(59, 67, 73, 0.15);
+                backdrop-filter: blur(10px);
+
+            }
+
+            .pic img {
+                padding-top: 0px;
+                width: 550px;
+               
+            }
+
+            .pic {
+                margin-left: -80px;
+                margin-top: -350px;
+            }
+
+        }
+
+        svg {
+            top: 0px;
+            position: absolute;
+            z-index: -11;
+            width: 100%;
+        }
+
+        main h1 {
+            margin-top: 450px;
+            font-size: 60px;
+            text-transform: uppercase;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #273036;
+            font-weight: bold;
+        }
+
+        main p {
+
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+
+        main button {
+            margin-bottom: 100px;
+        }
+
+        .pic img {
+            padding-top: 450px;
+            padding-left: 100px;
+        }
+
+        .footer {
+            background-color: #273036; 
+            margin-top: 200px; bottom: 0px;  
+
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        footer h5 {
+            color: white;
+        }
+    </style>
+</head>
+</head>
+
+<body class="vh100 ">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container">
+                <a class="navbar-brand fs-4" href="#">INS SHAHRIAR</a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header text-white border-bttom">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">INS SHAHRIAR</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link mx-2" href="#">About</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link mx-2" href="#">Services</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link mx-2" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+                        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                            <a class="text-white" href="#">Login</a>
+                            <a class="text-white text-decoration-none px-3 py-1 rounded-4"
+                                style="background-color: #00cba9;" href="#">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#273036" fill-opacity="1"
+                    d="M0,224L60,218.7C120,213,240,203,360,218.7C480,235,600,277,720,298.7C840,320,960,320,1080,309.3C1200,299,1320,277,1380,266.7L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
+            </svg>
+            </path>
+            </svg>
+        </nav>
+        <section class="container">
+            <div class="row main1">
+                <main class=" col col-sm12 col-md-12 col-lg-6">
+                    <h1>Lorem ipsum dolor <br> sit amet</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum explicabo, quos sint
+                        corporis
+                        itaque minus voluptate facere iure? Animi architecto aliquam adipisci dolorem rem qui
+                        reprehenderit
+                        tenetur vero tempora quos libero corrupti cumque, debitis nulla sunt in laudantium quam. Lorem
+                        ipsum
+                        dolor sit amet consectetur adipisicing elit. Architecto cum explicabo, quos sint corporis itaque
+                        minus voluptate.</p>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Learn More</button>
+
+                </main>
+                <div class=" col col-sm12 col-md-6 col-lg-6 pic">
+                    <img src="./creative.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+
+        <div class="footer">
+            <div class="container">
+                <hr style="height: 20px;">
+                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                  <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                      <h4 class="bi me-2 text-white" width="40" height="32">INS SHAHRIAR</h4>
+                    </a>
+                    <p class="text-white">&copy; 2024</p>
+                  </div>
+              
+                  <div class="col mb-3">
+              
+                  </div>
+              
+                  <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+                    </ul>
+                  </div>
+                </footer>
+            
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
